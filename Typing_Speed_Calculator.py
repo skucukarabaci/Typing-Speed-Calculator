@@ -30,9 +30,9 @@ class MainWindow:
         self.user_text = Text(root)
         self.user_text.grid(column = 0, row = 1, columnspan = 3, sticky = "nsew")
         self.btn_start = Button(root, text = "start/restart", command = self.start)
-        self.btn_start.grid(column = 0, row = 2, columnspan = 3, sticky = "nsew")
+        self.btn_start.grid(column = 0, row = 2, columnspan = 1, sticky = "nsew")
         self.btn_stop = Button(root, text = "stop", command = self.stop)
-        self.btn_stop.grid(column = 1, row = 2, columnspan = 3, sticky = "nsew")
+        self.btn_stop.grid(column = 1, row = 2, columnspan = 1, sticky = "nsew")
         self.btn_newtext = Button(root, text = "new text", command = self.new_text)
         self.btn_newtext.grid(column = 2, row = 2, columnspan = 3, sticky = "nsew")
 
